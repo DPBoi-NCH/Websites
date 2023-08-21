@@ -1,0 +1,24 @@
+{
+  "name": "senior_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "firebase emulator:start",
+    "deploy": "firebase deploy --only hosting",
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DPBoi-NCH/Websites.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DPBoi-NCH/Websites/issues"
+  },
+  "homepage": "https://github.com/DPBoi-NCH/Websites#readme"
+}
