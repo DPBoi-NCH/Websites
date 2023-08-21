@@ -1,0 +1,16 @@
+{
+  "name": "senior_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "firebase emulators:start",
+    "deploy": "firebase deploy --only hosting",
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "author": "",
+  "license": "ISC"
+}
